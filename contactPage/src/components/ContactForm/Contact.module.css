@@ -18,4 +18,32 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    position: relative;
+}
+
+.form_control input{
+   height: 2.5rem; 
+   padding: 0 .6rem;
+}
+
+.form_control label{
+    font-size: 1.2rem;
+    position: absolute;
+    top: -.6rem;
+    left: .5rem;
+    background-color: white;
+    padding: 0 .4rem;
+}
+
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.contact_image{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
