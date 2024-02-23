@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.top_btn{
+    display: flex;
+    gap: 3rem;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
