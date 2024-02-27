@@ -30,7 +30,7 @@ const ContactForm = () => {
         <div style={{display: "flex",justifyContent: "end"}}><Button text='SUBMIT BUTTON' /></div>
       </form>
      </div>
-     <div className={styles.contact_image}><img src="images/img2.jpg" alt="" /></div>
+     <div className={styles.contact_image}><img src="images/contact.png" alt="" /></div>
     </section>
   )
 }

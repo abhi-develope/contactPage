@@ -7,9 +7,11 @@ import ContactForm from './components/ContactForm/ContactForm'
 function App() {
   return (
     <>
-     <Navbar/>
+     <Navbar />
+    <div className="main_container">
      <ContactHeader/>
      <ContactForm/>
+    </div>
     </>
   )
 }
